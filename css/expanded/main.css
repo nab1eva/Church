@@ -35,6 +35,9 @@
   background: #ffd2a4;
   border-radius: 12px;
 }
+.btn a {
+  background: #ffd2a4;
+}
 
 .btn:hover {
   background-color: #f2c79b;
@@ -48,13 +51,13 @@
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFD2A4;
+  color: #ffd2a4;
   background: #161722;
   border-radius: 12px;
 }
 
 .btn-secondary:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-nav {
@@ -68,6 +71,11 @@
   color: #1c1d28;
   background: #ffd2a4;
   border-radius: 12px;
+}
+.btn-nav a {
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1d28;
 }
 
 .btn-nav:hover {
@@ -115,14 +123,17 @@ nav {
 nav .container {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 nav .container .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+}
+nav .container .logo .navlinks {
+  display: none;
 }
 nav .container .nav-right {
   display: none;
@@ -171,4 +182,28 @@ nav .container .nav-right {
   font-size: 35px;
   position: absolute;
   right: 0px;
+}
+
+@media (min-width: 810px) {
+  .hamburger {
+    display: none;
+  }
+  .navlinks {
+    display: flex !important;
+    align-items: center;
+    gap: 40px;
+  }
+  .navlinks a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.9;
+  }
+  .nav-right {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

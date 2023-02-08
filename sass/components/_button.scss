@@ -1,5 +1,5 @@
 .btn {
-	border: none;
+  border: none;
   padding: 24px 64px;
   font-weight: 400;
   font-size: 16px;
@@ -9,46 +9,50 @@
   color: #1c1d28;
   background: #ffd2a4;
   border-radius: 12px;
+  a{
+	background: #ffd2a4;
+  }
 }
 
 .btn:hover {
   background-color: #f2c79b;
 }
 
-
-
 .btn-secondary {
-	border: none;
-	padding: 24px 64px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFD2A4;
-	background: #161722;
-	border-radius: 12px;
-  }
-  
-  .btn-secondary:hover {
-	color: #FFFFFF;
-  }
+  border: none;
+  padding: 24px 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffd2a4;
+  background: #161722;
+  border-radius: 12px;
+}
 
+.btn-secondary:hover {
+  color: #ffffff;
+}
 
+.btn-nav {
+  border: none;
+  padding: 20px 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1d28;
+  background: #ffd2a4;
+  border-radius: 12px;
+  a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1c1d28;
+  }
+}
 
-  .btn-nav {
-	border: none;
-	padding: 20px 48px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #1c1d28;
-	background: #ffd2a4;
-	border-radius: 12px;
-  }
-  
-  .btn-nav:hover {
-	background-color: #f2c79b;
-  }
+.btn-nav:hover {
+  background-color: #f2c79b;
+}
