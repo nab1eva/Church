@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/compressed/home.min.css">
-</head>
-<body>
-	<nav>
-		<div class="container">
-			
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/compressed/home.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <button id="backtop" style="opacity: 1">
+      <a href="#">Up</a>
+    </button>
+    <nav id="navbar" class="navbarshrink">
+      <div class="container">
+        <div class="logo">
+          <img src="images/Logo.png" alt="" />
+          <img src="images/home/divider.png" alt="" />
+        </div>
+		<div class="nav-right">
+			<div class="navlinks">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="sermons.html">Sermon</a>
+				<a href="blog.html">Blog</a>
+			</div>
+			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
+      </div>
+	  <div class="hamburger">
+		<i class="uil uil-bars" onclick="openNavbar()"></i>
+	  </div>
+	  <div id="navbar-responsive">
+		  <i
+			id="navbar-close"
+			class="uil uil-multiply"
+			onclick="closeNavbar()"></i>
+		  <div class="hamcontent">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="sermons.html">Sermon</a>
+			<a href="blog.html">Blog</a>
+			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
+		  </div>
 		</div>
-	</nav>
-	
-</body>
+    </nav>
+	<script src="script.js"></script>
+  </body>
 </html>
