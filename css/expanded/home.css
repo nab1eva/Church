@@ -564,9 +564,11 @@ main .visit .container .visit-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 100px;
   width: 60%;
   background-color: #ffffff;
   padding: 72px 48px;
+  border-bottom: 16px solid #ffd2a4;
 }
 main .visit .container .visit-card .visit-card-text h2 {
   max-width: 368px;
@@ -575,9 +577,6 @@ main .visit .container .visit-card .visit-card-text h2 {
 main .visit .container .visit-card .visit-card-text p {
   margin: 16px 0;
   max-width: 300px;
-}
-main .visit .container .visit-card :hover {
-  border-bottom: 16px solid #ffd2a4;
 }
 
 @media (min-width: 700px) {
