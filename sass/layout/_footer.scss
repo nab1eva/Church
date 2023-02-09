@@ -73,7 +73,6 @@ footer {
       }
     }
     .footer-right {
-
       h4 {
         max-width: 377px;
         color: $white;
@@ -84,52 +83,51 @@ footer {
         text-transform: uppercase;
       }
       form {
-		margin-top: 32px;
-		position: relative;
+        margin-top: 32px;
+        position: relative;
         display: flex;
-		align-items: center;
-		justify-content: center;
+        align-items: center;
+        justify-content: center;
         input {
-			width: 100%;
+          min-width: 310px;
+          width: 100%;
           padding: 20px;
           background-color: transparent;
           color: $white;
           border: 1px solid rgba(255, 255, 255, 0.15);
           border-radius: 12px;
         }
-		button{
-			position: absolute;
-			right: 0;
-		}
+        button {
+          position: absolute;
+          right: 0;
+        }
       }
     }
   }
 }
 
-
-@media(min-width:600px){
-	footer{
-		.container{
-			grid-template-columns: repeat(2, auto);
-		}
-	}
+@media (min-width: 600px) {
+  footer {
+    .container {
+      grid-template-columns: repeat(2, auto);
+    }
+  }
 }
 
-
-@media(min-width:1000px){
-	footer{
-		.container{
-			grid-template-columns: repeat(3, auto);
-			justify-content: space-between;
-			.footer-center{
-				margin-left: 140px;
-			}
-		}
-	}
+@media (min-width: 1000px) {
+  footer {
+    .container {
+      grid-template-columns: repeat(3, auto);
+      justify-content: space-between;
+      .footer-center {
+        margin-left: 140px;
+      }
+    }
+  }
 }
 
-@media(min-width:1120px){
-	input{
-		min-width: 500px;
-	}
+@media (min-width: 1120px) {
+  input {
+    min-width: 500px !important;
+  }
 }

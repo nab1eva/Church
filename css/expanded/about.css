@@ -20,7 +20,7 @@
   min-width: 350px;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 button {
@@ -172,6 +172,7 @@ footer .container .footer-right form {
   justify-content: center;
 }
 footer .container .footer-right form input {
+  min-width: 310px;
   width: 100%;
   padding: 20px;
   background-color: transparent;
@@ -200,7 +201,7 @@ footer .container .footer-right form button {
 }
 @media (min-width: 1120px) {
   input {
-    min-width: 500px;
+    min-width: 500px !important;
   }
 }
 nav {
