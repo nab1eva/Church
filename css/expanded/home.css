@@ -564,6 +564,7 @@ main .visit .container .visit-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
   gap: 100px;
   width: 60%;
   background-color: #ffffff;
