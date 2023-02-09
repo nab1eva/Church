@@ -55,6 +55,7 @@
       //   width: 1280px;
       display: grid;
       grid-template-columns: repeat(2, auto);
+      justify-content: center;
       margin-bottom: 48px;
       .upcoming__cont--bottom--left {
         // width: 100%;

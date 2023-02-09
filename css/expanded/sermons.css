@@ -275,7 +275,7 @@ nav .container .nav-right {
   top: -100%;
   left: 0;
   bottom: 0;
-  height: 32vh;
+  height: 42vh;
   width: 100%;
   text-align: center;
   background-color: #161722;
@@ -390,6 +390,7 @@ nav .container .nav-right {
 #upcoming .upcoming__container .upcoming__cont--bottom {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  justify-content: center;
   margin-bottom: 48px;
 }
 #upcoming .upcoming__container .upcoming__cont--bottom .upcoming__cont--bottom--left {
