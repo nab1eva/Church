@@ -1,18 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/compressed/home.min.css">
-</head>
-<body>
-	<nav>
-		<div class="container">
-			
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/compressed/home.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <button id="backtop" style="opacity: 1">
+      <a href="#">Up</a>
+    </button>
+    <nav id="navbar" class="navbarshrink">
+      <div class="container">
+        <div class="logo">
+          <img src="images/Logo.png" alt="" />
+          <img class="devider" src="images/home/divider.png" alt="" />
+		  <div class="navlinks">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="sermons.html">Sermon</a>
+			<a href="blog.html">Blog</a>
 		</div>
-	</nav>
-	
-</body>
+        </div>
+		<div class="nav-right">
+			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
+      </div>
+	  <div class="hamburger">
+		<i class="uil uil-bars" onclick="openNavbar()"></i>
+	  </div>
+	  <div id="navbar-responsive">
+		  <i
+			id="navbar-close"
+			class="uil uil-multiply"
+			onclick="closeNavbar()"></i>
+		  <div class="hamcontent">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="sermons.html">Sermon</a>
+			<a href="blog.html">Blog</a>
+			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
+		  </div>
+		</div>
+    </nav>
+	<header>
+		<div class="container">
+			<h3>Welcome to our CHURCH</h3>
+			<h1>Become a part of our community</h1>
+			<button class="btn"><a href="about.html">Learn more</a></button>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+			</ul>
+		</div>
+	</header>
+	<main>
+			<section class="sub-headline">
+				<div class="container">
+					<h3>sub-headline</h3>
+				<h2>a church that's relevant</h2>
+				<div class="sub-headline__cards">
+					<div class="sub-headline__card">
+						<img src="images/home/icon1.png" alt="">
+						<h4>About us</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="sub-headline__card">
+						<img src="images/home/icon2.png" alt="">
+						<h4>Get Involved</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="sub-headline__card">
+						<img src="images/home/icon3.png" alt="">
+						<h4>Giving back</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				</div>
+			</section>
+			<section class="love">
+				<div class="container">
+					<h3>sub-headline</h3>
+				<h2>love and compassion</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<button class="btn"><a href="about.html">read more</a></button>
+				<div class="love-images">
+					<img class="i1" src="images/home/img1.png" alt="">
+					<img class="i2" src="images/home/img2.png" alt="">
+					<img class="i1" src="images/home/img3.png" alt="">
+				</div>
+				<h3>our mission & vision</h3>
+				<h2>celebrate WITH US</h2>
+				<p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<a href="sermons.html">Read More <i class="uil uil-arrow-right"></i></a>
+				</div>
+			</section>
+			<section class="watch">
+				<div class="container">
+					<h3>Watch and listen</h3>
+					<h2>THE benefits of joining our church</h2>
+					<div class="watch-cards">
+						<div class="watch-card wc1">
+							<div class="watch-card-text">
+								<h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+							</div>
+						</div>
+						<div class="watch-card wc2">
+							<div class="watch-card-text">
+								<h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+							</div>
+						</div>
+						<div class="watch-card wc3">
+							<div class="watch-card-text">
+								<h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+							</div>
+						</div>
+						<div class="watch-card wc4">
+							<div class="watch-card-text">
+								<h5>WATCH AND LISTEN TO OUR SERMONS</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sermons">
+				<div class="container">
+					<h3>Upcoming SERMONS</h3>
+					<h2>join us and become part of something great</h2>
+					<div class="sermons-card">
+						<div class="sermons-card-text">
+							<div class="date">
+								<h5>20</h5>
+								<h4>July</h4>
+							</div>
+							<h5>Upcoming Event</h5>
+							<h2>WATCH AND LISTEN TO OUR SERMONS</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							<div class="time">
+								<img src="images/home/Clock icon.png" alt="">
+								<div class="time-text">
+									<p>Friday 23:39 IST</p>
+									<p>Saturday 11:20 ISD</p>
+								</div>
+							</div>
+							<div class="time">
+								<img class="lupa" src="images/home/Icon.png" alt="">
+								<div class="time-text">
+									<p>Friday 23:39 IST</p>
+									<p>Saturday 11:20 ISD</p>
+								</div>
+							</div>
+							<button class="btn-secondary"><a href="contact.html">Register</a></button>
+						</div>
+						<div class="sermons-card-img">
+							<img src="images/home/img.png" alt="">
+						</div>
+					</div>
+					<h6>View all Sermons <i class="uil uil-arrow-right"></i></h6>
+				</div>
+			</section>
+			<section class="visit">
+				<div class="container">
+					<div class="visit-card">
+						<div class="visit-card-text">
+							<h2>We want to serve the world around us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+						<button class="btn"><a href="sermonsevent.html">Visit</a></button>
+						</div>
+						<img src="images/home/quote.png" alt="">
+					</div>
+				</div>
+			</section>
+	</main>
+	<script src="script.js"></script>
+  </body>
 </html>

@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BLOG-POST</title>
     <link rel="stylesheet" href="css/expanded/blog-post.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
   </head>
   <body>
     <button id="backtop" style="opacity: 1">
@@ -17,33 +20,88 @@
         <div class="logo">
           <img src="images/Logo.png" alt="" />
           <img class="devider" src="images/home/divider.png" alt="" />
-		  <div class="navlinks">
-			<a href="index.html">Home</a>
-			<a href="about.html">About Us</a>
-			<a href="sermons.html">Sermon</a>
-			<a href="blog.html">Blog</a>
-		</div>
+          <div class="navlinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="sermons.html">Sermon</a>
+            <a href="blog.html">Blog</a>
+          </div>
         </div>
-		<div class="nav-right">
-			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
+        <div class="nav-right">
+          <button class="btn-nav">
+            <a href="contact.html">Contact us</a>
+          </button>
+        </div>
+        <div class="hamburger">
+          <i class="uil uil-bars" onclick="openNavbar()"></i>
+        </div>
+        <div id="navbar-responsive">
+          <i
+            id="navbar-close"
+            class="uil uil-multiply"
+            onclick="closeNavbar()"
+          ></i>
+          <div class="hamcontent">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="sermons.html">Sermon</a>
+            <a href="blog.html">Blog</a>
+            <button class="btn-nav">
+              <a href="contact.html">Contact us</a>
+            </button>
+          </div>
+        </div>
       </div>
-	  <div class="hamburger">
-		<i class="uil uil-bars" onclick="openNavbar()"></i>
-	  </div>
-	  <div id="navbar-responsive">
-		  <i
-			id="navbar-close"
-			class="uil uil-multiply"
-			onclick="closeNavbar()"></i>
-		  <div class="hamcontent">
-			<a href="index.html">Home</a>
-			<a href="about.html">About Us</a>
-			<a href="sermons.html">Sermon</a>
-			<a href="blog.html">Blog</a>
-			<button class="btn-nav"><a href="contact.html">Contact us</a></button>
-		  </div>
-		</div>
     </nav>
-  <script src="script.js"></script>
+    <header>
+      <div class="container">
+        <h5>Relationship</h5>
+        <h2>HOW TO SHOW COMPASSION</h2>
+        <p>13 May, 2018 By Mathew Johnson</p>
+        <div class="img">
+          <img src="./images/blog-post/first-image.jpg" alt="" />
+        </div>
+        <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et <br />
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation. Ullamco laboris nisi ut aliquip ex <br />
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat <br />
+            nulla pariatur. Non tellus orci ac auctor augue mauris augue neque
+            gravida.
+          </p>
+          <p>
+            Aenean vel elit scelerisque mauris. Imperdiet sed euismod nisi porta
+            lorem mollis aliquam. Quis vel eros <br />
+            donec ac odio tempor orci dapibus ultrices. Elementum eu facilisis
+            sed odio morbi. Nam at lectus urna duis <br />
+            convallis convallis tellus id. Feugiat pretium nibh ipsum consequat
+            nisl vel. Elementum pulvinar etiam non <br />
+            quam lacus. Sit amet porttitor eget.
+          </p>
+
+          <img class="img" src="./images/blog-post/second-image.jpg" alt="" />
+          <h4>LOREM IPSUM DOLOR SIT AMET</h4>
+          <p>
+            Aenean vel elit scelerisque mauris. Imperdiet sed euismod nisi porta
+            lorem mollis aliquam. Quis vel eros donec ac odio tempor orci
+            dapibus ultrices. Elementum eu facilisis sed odio morbi. Nam at
+            lectus urna duis convallis convallis tellus id. Feugiat pretium nibh
+            ipsum consequat nisl vel. Elementum pulvinar etiam non quam lacus.
+            Sit amet porttitor eget.
+          </p>
+          <img src="./images/blog-post/Line.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
+            faucibus in ornare quam viverra orci sagittis eu volutpat.
+          </p>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
   </body>
 </html>

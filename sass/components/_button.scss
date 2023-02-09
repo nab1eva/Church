@@ -1,4 +1,9 @@
+button{
+	cursor: pointer;
+}
+
 .btn {
+  border: none;
   padding: 24px 64px;
   font-weight: 400;
   font-size: 16px;
@@ -8,6 +13,9 @@
   color: #1c1d28;
   background: #ffd2a4;
   border-radius: 12px;
+  a{
+	  color: #1c1d28;
+  }
 }
 
 .btn:hover {
@@ -15,6 +23,10 @@
 }
 
 .btn-secondary {
+<<<<<<< HEAD
+=======
+  border: none;
+>>>>>>> 5f8fe641489421848b491d7f674ff46fa0e6053e
   padding: 24px 64px;
   font-weight: 400;
   font-size: 16px;
@@ -24,6 +36,7 @@
   color: #ffd2a4;
   background: #161722;
   border-radius: 12px;
+<<<<<<< HEAD
 }
 
 .btn-secondary:hover {
@@ -42,6 +55,35 @@
   border-radius: 12px;
 }
 
+=======
+  a{
+    color: #ffd2a4;
+  }
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+}
+
+.btn-nav {
+  border: none;
+  padding: 20px 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1d28;
+  background: #ffd2a4;
+  border-radius: 12px;
+  a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1c1d28;
+  }
+}
+
+>>>>>>> 5f8fe641489421848b491d7f674ff46fa0e6053e
 .btn-nav:hover {
   background-color: #f2c79b;
 }
