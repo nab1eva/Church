@@ -379,7 +379,7 @@ main .hero-section h1 {
   gap: 24px;
 }
 .love-section .images-wrapper img {
-  width: 50% !important;
+  width: 50%;
 }
 .love-section .text-wrapper {
   display: flex;
@@ -420,14 +420,50 @@ main .hero-section h1 {
   opacity: 0.78;
 }
 .benefits-section .benefits-card-1 img {
-  width: 70%;
-  justify-content: center !important;
+  width: 100%;
 }
 
-@media (min-width: 1000px) {
+.team-section {
+  text-align: center;
+  margin-top: 78px;
+  padding-bottom: 78px;
+}
+.team-section p {
+  opacity: 0.5;
+}
+.team-section .team-h2 {
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+.team-section .team-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap !important;
+  gap: 24px;
+}
+.team-section .team-cards-wrapper .team-card {
+  text-align: center;
+  padding: 48px 56px;
+  background-color: #F5F2F0;
+}
+.team-section .team-cards-wrapper .team-card h2 {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.team-section .team-cards-wrapper .team-card p {
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1060px) {
   .images-wrapper {
     flex-direction: initial !important;
   }
+  .images-wrapper .img-1 {
+    width: 499px !important;
+  }
+}
+@media (min-width: 1000px) {
   .text-wrapper {
     flex-direction: initial !important;
     justify-content: space-between !important;
@@ -436,5 +472,10 @@ main .hero-section h1 {
   .benefits-card-1 {
     grid-template-columns: repeat(2, auto);
     justify-content: center;
+  }
+}
+@media (min-width: 630px) {
+  .team-cards-wrapper {
+    justify-content: space-between;
   }
 }
