@@ -361,11 +361,27 @@ main .hero-section h1 {
   text-align: center;
   padding-bottom: 78px;
 }
+.benefits-section .benefits-text1-wrapper h1 {
+  font-size: 48px;
+}
 .benefits-section .benefits-card-1 {
-  display: flex;
+  display: grid;
   align-items: center;
   gap: 30px;
   padding-bottom: 60px;
+  justify-content: center;
+  flex-direction: column;
+}
+.benefits-section .benefits-card-1 h2 {
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+.benefits-section .benefits-card-1 p {
+  opacity: 0.78;
+}
+.benefits-section .benefits-card-1 img {
+  width: 70%;
+  justify-content: center !important;
 }
 
 @media (min-width: 1000px) {
@@ -376,5 +392,9 @@ main .hero-section h1 {
     flex-direction: initial !important;
     justify-content: space-between !important;
     padding: 70px 150px;
+  }
+  .benefits-card-1 {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
   }
 }
