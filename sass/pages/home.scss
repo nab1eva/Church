@@ -1,2 +1,114 @@
-@use "../main.scss"
+@use "../main.scss";
 
+$black: #161722;
+$primary: #ffd2a4;
+$lightorange: #fff5eb;
+$grey: #f5f2f0;
+$white: #ffffff;
+
+h2 {
+  color: $black;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: $black;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+header {
+  margin-top: 70px;
+  padding: 128px 0;
+  background-image: url(../../images/home/bgi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: $white;
+    }
+    h1 {
+      margin: 16px 0 32px;
+      max-width: 550px;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 82px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: $white;
+    }
+    ul {
+      li {
+        margin-top: 64px;
+        max-width: 300px;
+        color: $white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        list-style-position: inside;
+        list-style-image: url(../../images/home/Line.png);
+      }
+    }
+  }
+}
+
+main {
+  padding: 128px 0;
+  .container {
+    h3 {
+      color: $black;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 16px 0 64px;
+    }
+	.sub-headline__cards{
+		display: grid;
+		justify-content: center;
+		gap: 24px;
+		.sub-headline__card{
+			max-width: 410px;
+			padding: 75px;
+			background-color: $lightorange;
+			border-bottom: 16px solid $primary;
+			h4{
+				margin: 16px 0 8px;
+			}
+			p{
+				max-width: 250px;
+			}
+		}
+	}
+  }
+}
+
+
+@media(min-width:700px){
+	.sub-headline__cards{
+		grid-template-columns: repeat(2, auto);
+	}
+}
+
+
+
+@media(min-width:1100px){
+	.sub-headline__cards{
+		grid-template-columns: repeat(3, auto);
+	}
+}

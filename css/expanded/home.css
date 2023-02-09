@@ -18,7 +18,7 @@
 
 .container {
   min-width: 350px;
-  max-width: 1120px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
 }
@@ -40,7 +40,7 @@ button {
   border-radius: 12px;
 }
 .btn a {
-  background: #ffd2a4;
+  color: #1c1d28;
 }
 
 .btn:hover {
@@ -197,7 +197,7 @@ nav .container .nav-right {
   right: 0px;
 }
 
-@media (min-width: 810px) {
+@media (min-width: 840px) {
   .hamburger {
     display: none;
   }
@@ -218,5 +218,101 @@ nav .container .nav-right {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
+  }
+}
+h2 {
+  color: #161722;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #161722;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+header {
+  margin-top: 70px;
+  padding: 128px 0;
+  background-image: url(../../images/home/bgi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .container h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header .container h1 {
+  margin: 16px 0 32px;
+  max-width: 550px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+header .container ul li {
+  margin-top: 64px;
+  max-width: 300px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  list-style-position: inside;
+  list-style-image: url(../../images/home/Line.png);
+}
+
+main {
+  padding: 128px 0;
+}
+main .container h3 {
+  color: #161722;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+main .container h2 {
+  margin: 16px 0 64px;
+}
+main .container .sub-headline__cards {
+  display: grid;
+  justify-content: center;
+  gap: 24px;
+}
+main .container .sub-headline__cards .sub-headline__card {
+  max-width: 410px;
+  padding: 75px;
+  background-color: #fff5eb;
+  border-bottom: 16px solid #ffd2a4;
+}
+main .container .sub-headline__cards .sub-headline__card h4 {
+  margin: 16px 0 8px;
+}
+main .container .sub-headline__cards .sub-headline__card p {
+  max-width: 250px;
+}
+
+@media (min-width: 700px) {
+  .sub-headline__cards {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1100px) {
+  .sub-headline__cards {
+    grid-template-columns: repeat(3, auto);
   }
 }
