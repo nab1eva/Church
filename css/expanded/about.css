@@ -220,3 +220,83 @@ nav .container .nav-right {
     align-items: center;
   }
 }
+main {
+  margin-top: 70px;
+  font-family: "Roboto", sans-serif;
+}
+main .hero-section {
+  background-image: url(../../images/about/background-hero/https_/unsplash.com/photos/vOeB66Yoriw.png);
+  height: 500px;
+  background-size: cover;
+}
+main .hero-section h3 {
+  padding-top: 210px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+main .hero-section h1 {
+  font-size: 48px;
+}
+
+.love-section {
+  padding: 128px 0;
+}
+.love-section .text1-wrapper {
+  text-align: center;
+}
+.love-section-p {
+  padding-bottom: 20px;
+  opacity: 0.78;
+}
+.love-section-h2 {
+  padding-bottom: 20px;
+  font-size: 48px;
+}
+.love-section .images-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  flex-direction: column;
+  gap: 24px;
+}
+.love-section .images-wrapper img {
+  width: 50% !important;
+}
+.love-section .text-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-top: 30px;
+}
+.love-section .text-wrapper p {
+  padding-bottom: 15px;
+}
+.love-section .text-wrapper h2 {
+  padding-bottom: 15px;
+  font-size: 32px;
+}
+
+.benefits-section .benefits-text1-wrapper {
+  text-align: center;
+  padding-bottom: 78px;
+}
+.benefits-section .benefits-card-1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1000px) {
+  .images-wrapper {
+    flex-direction: initial !important;
+  }
+  .text-wrapper {
+    flex-direction: initial !important;
+    justify-content: space-between !important;
+    padding: 70px 150px;
+  }
+}
