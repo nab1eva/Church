@@ -156,6 +156,7 @@ footer .container .footer-center .social .socials {
   gap: 20px;
 }
 footer .container .footer-right h4 {
+  color: #ffffff;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
