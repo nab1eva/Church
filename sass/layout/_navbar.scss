@@ -74,14 +74,14 @@ nav {
   top: -100%;
   left: 0;
   bottom: 0;
-  height: 40vh;
+  height: 32vh;
   width: 100%;
   text-align: center;
   background-color: $black;
 }
 
 .hamcontent {
-  padding: 25px 0;
+  padding: 35px 0;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -119,7 +119,7 @@ nav {
 @media (min-width: 750px) {
 }
 
-@media (min-width: 810px) {
+@media (min-width: 840px) {
   .hamburger {
     display: none;
   }
