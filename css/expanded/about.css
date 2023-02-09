@@ -20,7 +20,7 @@
   min-width: 350px;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 button {
@@ -156,6 +156,7 @@ footer .container .footer-center .social .socials {
   gap: 20px;
 }
 footer .container .footer-right h4 {
+  max-width: 377px;
   color: #ffffff;
   font-weight: 700;
   font-size: 32px;
@@ -163,7 +164,46 @@ footer .container .footer-right h4 {
   letter-spacing: -0.01em;
   text-transform: uppercase;
 }
+footer .container .footer-right form {
+  margin-top: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .footer-right form input {
+  min-width: 310px;
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+}
+footer .container .footer-right form button {
+  position: absolute;
+  right: 0;
+}
 
+@media (min-width: 600px) {
+  footer .container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1000px) {
+  footer .container {
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+  footer .container .footer-center {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 1120px) {
+  input {
+    min-width: 500px !important;
+  }
+}
 nav {
   background-color: #161722;
 }
