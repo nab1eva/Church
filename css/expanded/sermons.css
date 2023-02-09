@@ -590,6 +590,7 @@ nav .container .nav-right {
 @media (max-width: 1285px) {
   #upcoming .upcoming__container .upcoming__cont--bottom {
     display: grid;
+    justify-content: center;
     grid-template-columns: auto;
   }
   #upcoming .upcoming__container .upcoming__cont--bottom .upcoming__cont--bottom--left {

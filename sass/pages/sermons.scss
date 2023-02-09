@@ -395,6 +395,7 @@
 @media (max-width: 1285px) {
   #upcoming .upcoming__container .upcoming__cont--bottom {
     display: grid;
+    justify-content: center;
     grid-template-columns: auto;
     .upcoming__cont--bottom--left {
       width: 1100px;
