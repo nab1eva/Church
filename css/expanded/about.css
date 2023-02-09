@@ -223,3 +223,6 @@ nav .container .nav-right {
     align-items: center;
   }
 }
+main {
+  margin-top: 70px;
+}
