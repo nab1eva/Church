@@ -59,6 +59,9 @@ button {
   background: #161722;
   border-radius: 12px;
 }
+.btn-secondary a {
+  color: #ffd2a4;
+}
 
 .btn-secondary:hover {
   color: #ffffff;
