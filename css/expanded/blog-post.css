@@ -316,6 +316,7 @@ nav .container .nav-right {
 }
 
 header {
+  text-align: center;
   margin-top: 70px;
   padding: 128px 0;
   font-family: "Roboto Condensed";
@@ -323,7 +324,6 @@ header {
 }
 
 h5 {
-  text-align: center;
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
@@ -331,16 +331,13 @@ h5 {
   margin: 16px;
 }
 h2 {
-  text-align: center;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   color: #161722;
   margin: 16px;
 }
-p {
-
-  text-align: center;
+header p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -348,7 +345,6 @@ p {
   margin: 30px;
 }
 .text p {
-  
   left: 366px;
   font-weight: 400;
   font-size: 18px;
@@ -356,10 +352,7 @@ p {
   color: #161722;
   opacity: 0.78;
 }
-.img {
-  text-align: center;
-  left: 366px;
-}
+
 h4 {
   font-weight: 700;
   font-size: 32px;
@@ -367,6 +360,9 @@ h4 {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #161722;
+}
+.texts p {
+  margin: 4px;
 }
 @media (min-width: 840px) {
   .hamburger {
