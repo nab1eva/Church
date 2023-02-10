@@ -471,6 +471,114 @@ nav .container .nav-right {
   background-color: transparent;
 }
 
+#footer {
+  padding: 64px 0px 64px 0px;
+  background: #161722;
+}
+#footer .footer__container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+#footer .footer__container .footer__cont--left {
+  display: grid;
+}
+#footer .footer__container .footer__cont--left img {
+  margin-bottom: 27px;
+}
+#footer .footer__container .footer__cont--left p {
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#footer .footer__container .footer__cont--left a {
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#footer .footer__container .footer__cont--right {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer__container .footer__cont--right .box1 {
+  display: grid;
+}
+#footer .footer__container .footer__cont--right .box1 h6 {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+#footer .footer__container .footer__cont--right .box1 a {
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.78;
+}
+#footer .footer__container .footer__cont--right .box2 h6 {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+#footer .footer__container .footer__cont--right .box2 .box2--img img {
+  margin-right: 20px;
+}
+#footer .footer__container .footer__cont--right .box3 h4 {
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#footer .footer__container .footer__cont--right .box3 form {
+  position: relative;
+}
+#footer .footer__container .footer__cont--right .box3 form #email {
+  width: 512px;
+  height: 64px;
+  padding: 0px 221px 0px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.8;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+}
+#footer .footer__container .footer__cont--right .box3 form #submit {
+  width: 201px;
+  height: 61px;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #1c1d28;
+  background: #ffd2a4;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#footer .footer__container .footer__cont--right .box3 form #submit:hover {
+  background: #f2c79b;
+}
+
 @media (max-width: 1285px) {
   #upcoming .upcoming__container .upcoming__cont--bottom {
     display: grid;
@@ -514,6 +622,16 @@ nav .container .nav-right {
     width: 800px;
   }
 }
+@media (max-width: 1060px) {
+  #footer .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer .footer__container .footer__cont--left {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1000px) {
   #events .events__container .events__cont--bottom .events__cards {
     display: grid;
@@ -534,6 +652,52 @@ nav .container .nav-right {
   }
   #upcoming .upcoming__container .upcoming__cont--bottom .upcoming__cont--bottom--right img {
     width: 600px;
+  }
+}
+@media (max-width: 870px) {
+  #footer .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer .footer__container .footer__cont--left {
+    display: grid;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 705px) {
+  #footer .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer .footer__container .footer__cont--left {
+    display: grid;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right .box1 {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #footer .footer__container .footer__cont--right .box1 h6 {
+    text-align: left;
+  }
+  #footer .footer__container .footer__cont--right .box1 a {
+    text-align: left;
+  }
+  #footer .footer__container .footer__cont--right .box2 {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 680px) {
@@ -558,6 +722,27 @@ nav .container .nav-right {
     width: 400px;
   }
 }
+@media (max-width: 590px) {
+  #footer .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer .footer__container .footer__cont--left {
+    display: grid;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right .box3 form #email {
+    width: 100%;
+  }
+  #footer .footer__container .footer__cont--right .box3 form #submit {
+    width: 150px;
+  }
+}
 @media (max-width: 477px) {
   #upcoming .upcoming__container .upcoming__cont--bottom {
     display: grid;
@@ -570,6 +755,28 @@ nav .container .nav-right {
   }
   #upcoming .upcoming__container .upcoming__cont--bottom .upcoming__cont--bottom--right img {
     width: 320px;
+  }
+}
+@media (max-width: 455px) {
+  #footer .footer__container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  #footer .footer__container .footer__cont--left {
+    display: grid;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  #footer .footer__container .footer__cont--right .box3 form #email {
+    padding-right: 110px;
+    width: 100%;
+  }
+  #footer .footer__container .footer__cont--right .box3 form #submit {
+    width: 100px;
   }
 }
 @media (max-width: 397px) {
