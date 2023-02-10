@@ -353,6 +353,9 @@ header p {
   opacity: 0.78;
 }
 
+.img img {
+  margin: 48px;
+}
 h4 {
   font-weight: 700;
   font-size: 32px;
