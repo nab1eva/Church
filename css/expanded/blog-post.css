@@ -315,58 +315,6 @@ nav .container .nav-right {
   right: 0px;
 }
 
-header {
-  text-align: center;
-  margin-top: 70px;
-  padding: 128px 0;
-  font-family: "Roboto Condensed";
-  font-style: normal;
-}
-
-h5 {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  color: #dc9853;
-  margin: 16px;
-}
-h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  color: #161722;
-  margin: 16px;
-}
-header p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #161722;
-  margin: 30px;
-}
-.text p {
-  left: 366px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #161722;
-  opacity: 0.78;
-}
-
-.img img {
-  margin: 48px;
-}
-h4 {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  color: #161722;
-}
-.texts p {
-  margin: 4px;
-}
 @media (min-width: 840px) {
   .hamburger {
     display: none;

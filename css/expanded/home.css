@@ -567,7 +567,7 @@ main .sermons .container h2 {
   max-width: 555px;
   margin: 16px 0 64px;
 }
-main .sermons .container h6 {
+main .sermons .container .a {
   position: absolute;
   right: 20px;
   bottom: -80px;
@@ -576,7 +576,7 @@ main .sermons .container h6 {
   font-size: 24px;
   line-height: 32px;
 }
-main .sermons .container h6 i {
+main .sermons .container .a i {
   color: #161722;
   font-weight: 400;
   font-size: 24px;
