@@ -1,0 +1,59 @@
+@use "../main.scss";
+
+img {
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+  margin-bottom: 24px;
+}
+
+header {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 20px 128px;
+    .text {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      h4 {
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #161722;
+      }
+      ul {
+        li {
+          list-style-type: circle;
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}
+
+.img{
+	img{
+		margin-bottom: 48px;
+	}
+}
+
+.texts{
+	margin-left: -350px;
+	margin-bottom: 28px;
+}
