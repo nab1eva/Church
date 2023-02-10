@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style-type: none;
   scroll-behavior: smooth;
   transition: all 0.4s ease;
@@ -20,7 +20,7 @@
   min-width: 350px;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 button {
@@ -89,6 +89,121 @@ button {
   background-color: #f2c79b;
 }
 
+footer {
+  padding: 64px 0;
+  background-color: #161722;
+}
+footer .container {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+}
+footer .container .footer-left img {
+  margin-bottom: 32px;
+}
+footer .container .footer-left p,
+footer .container .footer-left h6 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+footer .container .footer-left h6 {
+  margin-bottom: 32px;
+}
+footer .container .footer-left p {
+  margin-bottom: 16px;
+}
+footer .container .footer-center {
+  display: flex;
+  gap: 70px;
+}
+footer .container .footer-center ul p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+footer .container .footer-center ul li {
+  margin-bottom: 24px;
+}
+footer .container .footer-center ul li a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.78;
+}
+footer .container .footer-center .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container .footer-center .social p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+footer .container .footer-center .social .socials {
+  display: flex;
+  gap: 20px;
+}
+footer .container .footer-right h4 {
+  max-width: 377px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+footer .container .footer-right form {
+  margin-top: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .footer-right form input {
+  min-width: 310px;
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+}
+footer .container .footer-right form button {
+  position: absolute;
+  right: 0;
+}
+
+@media (min-width: 600px) {
+  footer .container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 1000px) {
+  footer .container {
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+  footer .container .footer-center {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 1120px) {
+  input {
+    min-width: 500px !important;
+  }
+}
 nav {
   background-color: #161722;
 }
@@ -160,14 +275,14 @@ nav .container .nav-right {
   top: -100%;
   left: 0;
   bottom: 0;
-  height: 40vh;
+  height: 42vh;
   width: 100%;
   text-align: center;
   background-color: #161722;
 }
 
 .hamcontent {
-  padding: 25px 0;
+  padding: 35px 0;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -452,7 +567,7 @@ main .sermons .container h2 {
   max-width: 555px;
   margin: 16px 0 64px;
 }
-main .sermons .container h6 {
+main .sermons .container .a {
   position: absolute;
   right: 20px;
   bottom: -80px;
@@ -461,7 +576,7 @@ main .sermons .container h6 {
   font-size: 24px;
   line-height: 32px;
 }
-main .sermons .container h6 i {
+main .sermons .container .a i {
   color: #161722;
   font-weight: 400;
   font-size: 24px;
@@ -549,13 +664,101 @@ main .sermons .container .sermons-card .sermons-card-text .date h4 {
   text-transform: uppercase;
   color: #161722;
 }
+main .visit {
+  padding: 128px 0;
+  background-image: url(../../images/home/bgi1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .visit .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .visit .container .visit-card {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 72px 48px;
+  border-bottom: 16px solid #ffd2a4;
+}
+main .visit .container .visit-card .visit-card-text h2 {
+  max-width: 368px;
+  text-align: left;
+}
+main .visit .container .visit-card .visit-card-text p {
+  margin: 16px 0;
+  max-width: 300px;
+}
+main .share {
+  padding: 128px 0;
+}
+main .share .container h2 {
+  margin: 16px 0 64px;
+}
+main .share .container .share-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+main .share .container .share-cards .share-card {
+  border-bottom: 16px solid transparent;
+  padding: 48px 32px 32px;
+  background-color: #fff5eb;
+}
+main .share .container .share-cards .share-card h5 {
+  color: #ffd2a4;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+main .share .container .share-cards .share-card h2 {
+  margin: 16px 0;
+  max-width: 218px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+main .share .container .share-cards .share-card p {
+  max-width: 220px;
+}
+main .share .container .share-cards .share-card h4 {
+  margin: 48px 0 4px;
+  color: #161722;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.share-card:hover {
+  border-bottom: 16px solid #ffd2a4 !important;
+}
 
 @media (min-width: 700px) {
   .sub-headline__cards {
     grid-template-columns: repeat(2, auto);
   }
 }
+@media (min-width: 800px) {
+  .visit-card {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between !important;
+  }
+}
 @media (min-width: 1000px) {
+  .visit-card {
+    width: 70% !important;
+  }
   .sermons-card {
     grid-template-columns: repeat(2, auto);
   }
@@ -567,6 +770,9 @@ main .sermons .container .sermons-card .sermons-card-text .date h4 {
   }
 }
 @media (min-width: 1100px) {
+  .visit-card {
+    width: 66% !important;
+  }
   .sub-headline__cards {
     grid-template-columns: repeat(3, auto);
   }
