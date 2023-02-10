@@ -90,9 +90,7 @@ button {
   background-color: #f2c79b;
 }
 
-img {
-  width: 100%;
-}
+
 
 p {
   text-align: left;
@@ -108,6 +106,7 @@ footer .container {
   gap: 30px;
 }
 footer .container .footer-left img {
+  width: 140px;
   margin-bottom: 32px;
 }
 footer .container .footer-left p,
@@ -270,6 +269,7 @@ nav .container .logo {
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+
 }
 nav .container .logo .navlinks {
   display: none;
@@ -361,6 +361,11 @@ header p {
   line-height: 24px;
   color: #161722;
   opacity: 0.78;
+}
+header{
+  img{
+    width: 100%;
+  }
 }
 
 p:hover {
