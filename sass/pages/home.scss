@@ -244,7 +244,7 @@ main {
         max-width: 555px;
         margin: 16px 0 64px;
       }
-      h6 {
+      .a {
         position: absolute;
         right: 20px;
         bottom: -80px;
@@ -268,7 +268,7 @@ main {
         .sermons-card-text {
           background-color: $lightorange;
           position: relative;
-          padding: 57px 80px;
+          padding: 60px 80px;
           h5 {
             color: $primary;
             font-weight: 700;
@@ -355,15 +355,14 @@ main {
       align-items: center;
       justify-content: center;
       .visit-card {
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: space-between;
-		flex-direction: column;
-		gap: 100px;
-        width: 60%;
+        justify-content: center;
+        gap: 100px;
+        width: 90%;
         background-color: $white;
         padding: 72px 48px;
-		border-bottom: 16px solid $primary;
+        border-bottom: 16px solid $primary;
         .visit-card-text {
           h2 {
             max-width: 368px;
@@ -377,7 +376,61 @@ main {
       }
     }
   }
+  .share {
+    padding: 128px 0;
+    .container {
+      h2 {
+        margin: 16px 0 64px;
+      }
+      .share-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        .share-card {
+          border-bottom: 16px solid transparent;
+          padding: 48px 32px 32px;
+          background-color: $lightorange;
+          h5 {
+            color: $primary;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+          }
+          h2 {
+            margin: 16px 0;
+            max-width: 218px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+          }
+          p {
+            max-width: 220px;
+          }
+          h4 {
+            margin: 48px 0 4px;
+            color: $black;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+  }
 }
+
+.share-card:hover {
+  border-bottom: 16px solid $primary !important;
+}
+
+
 
 @media (min-width: 700px) {
   .sub-headline__cards {
@@ -385,7 +438,17 @@ main {
   }
 }
 
+@media (min-width: 800px) {
+  .visit-card {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between !important;
+  }
+}
+
 @media (min-width: 1000px) {
+  .visit-card {
+    width: 70% !important;
+  }
   .sermons-card {
     grid-template-columns: repeat(2, auto);
     .sermons-card-text {
@@ -400,6 +463,9 @@ main {
 }
 
 @media (min-width: 1100px) {
+  .visit-card {
+    width: 66% !important;
+  }
   .sub-headline__cards {
     grid-template-columns: repeat(3, auto);
   }

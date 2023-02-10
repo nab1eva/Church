@@ -1,0 +1,146 @@
+@use "../main.scss";
+
+main{
+  margin-top: 70px;
+  font-family: "Roboto", sans-serif;
+  .hero-section{
+   background-image: url(../../images/about/background-hero/https_/unsplash.com/photos/vOeB66Yoriw.png);
+   height: 500px;
+   background-size: cover;
+     h3{
+      padding-top: 210px;
+      font-size: 20px;
+      padding-bottom: 10px;
+     }
+     h1{
+      font-size: 48px;
+     }
+  }
+}
+.love-section{
+   padding: 128px 0;
+   .text1-wrapper{
+      text-align: center;
+   }
+   &-p{
+      padding-bottom: 20px;
+      opacity: 0.78;
+   }
+   &-h2{
+      padding-bottom: 20px;
+      font-size: 48px;
+   }
+   .images-wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 100px;
+      flex-direction: column;
+      gap: 24px;
+      img{
+         width: 50%;
+      }
+   }
+   .text-wrapper{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 24px;
+      align-items: center;
+      margin-top: 30px;
+      p{
+         padding-bottom: 15px;
+      }
+      h2{
+         padding-bottom: 15px;
+         font-size: 32px;
+      }
+   }
+}
+.benefits-section{
+   .benefits-text1-wrapper{
+      text-align: center;
+      padding-bottom: 78px;
+      h1{
+         font-size: 48px;
+      }
+   }
+   .benefits-card-1{
+      display: grid;
+      align-items: center;
+      gap: 30px;
+      padding-bottom: 60px;
+      justify-content: center;
+      flex-direction: column;
+      h2{
+          font-size: 32px;
+          padding-bottom: 15px;
+      }
+      p{
+         opacity: 0.78;
+      }
+      img{
+         width: 100%;
+      }
+   }
+}
+
+.team-section{
+   text-align: center;
+   margin-top: 78px;
+   padding-bottom: 78px;
+   p{
+      opacity: 0.50;
+   }
+   .team-h2{
+      font-size: 48px;
+      padding-bottom: 50px;
+   }
+   .team-cards-wrapper{
+      display: flex ;
+      justify-content: center;
+      flex-wrap: wrap !important;
+      gap: 24px;
+      .team-card{
+         text-align: center;
+         padding: 48px 56px;
+         background-color: #F5F2F0;
+         h2{
+            font-size: 24px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+         }
+         p{
+            padding-bottom: 10px;
+         }
+      }
+   }
+}
+
+@media(min-width:1060px){
+   .images-wrapper{
+      flex-direction: initial !important;
+      .img-1{
+         width: 499px !important;
+      }
+    }
+}
+@media (min-width:1000px){
+    
+    .text-wrapper{
+      flex-direction: initial !important;
+      justify-content: space-between !important;
+      padding: 70px 150px;
+    }
+    .benefits-card-1{
+      grid-template-columns: repeat(2, auto);
+      justify-content: center;
+    }
+}
+@media (min-width:630px){
+   .team-cards-wrapper{
+      justify-content: space-between;
+   }
+}
+
+
