@@ -1,7 +1,9 @@
 @use "../main.scss";
 @use "../layout/footer";
 
-
+body {
+    background-color: #E5E5E5;
+}
 
 header {
   background-color: #E5E5E5;   
@@ -87,11 +89,19 @@ header {
         .content1 {
             margin-left: 25px;
         }
+        .content-22 {
+            position: absolute;
+            margin-top: -11px;
+            margin-left: -155px;
+        }
         .rasmlar {
             display: flex;
         .rasm1 {
             position: absolute;
-            margin-left: -393px;
+            margin-left: -430px;
+        }
+        .rasm2 {
+            margin-left: -90px;
         }
         }
     }
@@ -115,12 +125,9 @@ align-items: center;
         color: #1C1D28;
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0px;
+line-height: 24px;  
 border: none;
     margin: 10px;
-    display: grid;
-    grid-gap: 10px;
     }
 }
 
@@ -140,7 +147,7 @@ color: #161722;
     text-align: center;
     gap: 24px;
     margin-top: 64px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     h1 {
         max-width: 290px;
         padding-left: 40px;
@@ -148,20 +155,24 @@ color: #161722;
     .card-1 {
         background-color: #fff;
         width: 302px;
+        height: 480px;
     }
     .card-2 {
         background-color: #fff;
         width: 302px;
+        height: 480px;
     }
     .card-3 {
-        margin-top: -35px;
+        
         background-color: #fff;
         width: 302px;
+        height: 480px;
     }
     .card-4 {
         margin-top: 0px;
         background-color: #fff;
         width: 302px;
+        height: 480px;
     }
     h5 {
 color: #161722;
@@ -199,13 +210,14 @@ padding-left: 126px;
     }
     h4, h3 {
         position: relative;
-        margin-top: 25px;
+        margin-top: 10px;
         margin-left: 40px;
         color: rgb(22, 23, 34);
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0em;
+        
     }
     img {
         position: absolute;

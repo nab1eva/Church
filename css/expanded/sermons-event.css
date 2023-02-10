@@ -338,6 +338,10 @@ nav .container .nav-right {
     align-items: center;
   }
 }
+body {
+  background-color: #E5E5E5;
+}
+
 header {
   background-color: #E5E5E5;
   padding-top: 128px;
@@ -422,12 +426,20 @@ header {
 .register .content .content1 {
   margin-left: 25px;
 }
+.register .content .content-22 {
+  position: absolute;
+  margin-top: -11px;
+  margin-left: -155px;
+}
 .register .content .rasmlar {
   display: flex;
 }
 .register .content .rasmlar .rasm1 {
   position: absolute;
-  margin-left: -393px;
+  margin-left: -430px;
+}
+.register .content .rasmlar .rasm2 {
+  margin-left: -90px;
 }
 .register button {
   display: flex;
@@ -449,11 +461,8 @@ header {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0px;
   border: none;
   margin: 10px;
-  display: grid;
-  grid-gap: 10px;
 }
 
 h2 {
@@ -472,7 +481,7 @@ h2 {
   text-align: center;
   gap: 24px;
   margin-top: 64px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .cards h1 {
   max-width: 290px;
@@ -481,20 +490,23 @@ h2 {
 .cards .card-1 {
   background-color: #fff;
   width: 302px;
+  height: 480px;
 }
 .cards .card-2 {
   background-color: #fff;
   width: 302px;
+  height: 480px;
 }
 .cards .card-3 {
-  margin-top: -35px;
   background-color: #fff;
   width: 302px;
+  height: 480px;
 }
 .cards .card-4 {
   margin-top: 0px;
   background-color: #fff;
   width: 302px;
+  height: 480px;
 }
 .cards h5 {
   color: #161722;
@@ -530,7 +542,7 @@ h2 {
 }
 .cards h4, .cards h3 {
   position: relative;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 40px;
   color: rgb(22, 23, 34);
   font-size: 16px;
