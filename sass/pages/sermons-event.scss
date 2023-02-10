@@ -1,5 +1,7 @@
 @use "../main.scss";
 
+
+
 header {
   background-color: #E5E5E5;   
   padding-top: 128px;
@@ -215,7 +217,7 @@ padding-left: 126px;
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: center          quote($string:  ) ;
+        justify-content: center ;
          .img {
             width: 100%;
         }

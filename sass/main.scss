@@ -1,6 +1,5 @@
-@use "abstracts/mixins";
-@use "abstracts/variables";
-@use "base/reset";
-@use "components/button";
+@use "abstracts/_variables";
+@use "base/_reset";
+@use "components/_button";
 @use "layout/_footer.scss";
 @use "layout/_navbar.scss";

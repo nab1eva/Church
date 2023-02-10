@@ -398,7 +398,7 @@ header {
 
 .register {
   margin-top: -970px;
-  margin-left: 700px;
+  margin-left: 800px;
   position: absolute;
   max-width: 522px;
   background-color: #F7F8FA;
@@ -540,7 +540,7 @@ h2 {
 }
 .cards img {
   position: absolute;
-  margin-left: -90px;
+  margin-left: -120px;
   margin-top: -38px;
 }
 
@@ -548,7 +548,7 @@ h2 {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: center "";
+    justify-content: center;
   }
   .container .img {
     width: 100%;
